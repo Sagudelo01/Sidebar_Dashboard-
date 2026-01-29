@@ -18,6 +18,10 @@ $gray: rgb(88, 88, 88);
   border-bottom: 1px solid $gray;
 }
 
+.flex {
+  display: flex;
+}
+
 .sidebar {
   width: 14rem;
   height: calc(100vh - 52px);
