@@ -14,12 +14,13 @@ function App() {
     <Router>
 
       <Navbar />
-
+      
       <div className="flex">
 
         <Sidebar />
 
         <div className="content">
+          
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/sales" element={<Sales />} />
