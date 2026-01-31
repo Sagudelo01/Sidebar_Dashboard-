@@ -5,22 +5,18 @@
   padding: 0;
 }
 
-
 body {
   font-family: "Manrope", sans-serif;
 }
 
 $light: #ffffffff;
-$gray: rgb(88, 88, 88);
+$gray: #e7e0eb;
 
 .navbar {
   background-color: $light;
   padding: 1rem 2rem;
   border-bottom: 1px solid $gray;
 }
-
-
-
 
 .flex {
   display: flex;
@@ -32,7 +28,6 @@ $gray: rgb(88, 88, 88);
   background-color: $light;
   border-right: 1px solid $gray;
 
-
   ul {
     list-style: none;
     padding: 1rem 2rem;
@@ -40,6 +35,9 @@ $gray: rgb(88, 88, 88);
       margin-bottom: 1rem;
       a {
         text-decoration: none;
+        &.active {
+          background-color: $gray;
+        }
       }
     }
   }
